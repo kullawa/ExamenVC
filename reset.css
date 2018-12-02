@@ -1,0 +1,6 @@
+header,body,ul,nav,a,aside,article,div,li,ul,ol,footer,p,h1,h2,h3,h4,h5,h6,img,a,main{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

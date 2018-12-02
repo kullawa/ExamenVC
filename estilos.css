@@ -1,0 +1,310 @@
+:root{
+    --color-letra-principal:#c0c0c0;
+}
+.subtitulos{
+color:var(--color-letra-principal);
+}
+li{
+list-style: none;
+}
+header{
+background-color: rgb(77, 75, 75);
+color:white;
+width: -webkit-fill-available;
+padding-top: 5px;
+padding-bottom: 5px;
+} 
+.header-principal{
+display: flex; 
+justify-content: space-between;
+margin-right: 30px;
+margin-left: 30px;
+}
+.header-tel{
+display: flex;
+justify-content: flex-start;
+    margin-left: 30px;    
+}
+.header-nav{
+display: flex;
+justify-content: flex-end;
+
+}
+.ul-estilo{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding-right:10px; 
+}
+.nav-color{
+color:white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: none;
+font-size: 16px;
+padding-bottom: 20px;
+}
+.section-principal{
+background-image: url("exámen módulo 2 (Wally)/imagenes/banner_principal.jpg");
+width: -webkit-fill-available;
+height: 600px;
+margin-bottom: 30px;  
+}
+.cabecera-sectionprin{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.logopeque{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.letra-blanca{
+    color: white;
+    font-size: 18px;
+    text-decoration: none; 
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.letra-grande{
+    color: white;
+    text-decoration: none; 
+    padding-bottom: 10px;
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div-sectionprincipal{
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 60px;
+    }
+.herramientas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section-final{
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer{
+    text-align: center;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wally-final{
+    padding-top: 40px;
+}
+li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.boton-contact{
+    color:white;
+    background-color: rgb(93, 219, 93);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 6px 6px 6px 6px;
+
+}
+
+.section2{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+
+}
+.text-subt1{
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    color: rgb(90, 88, 88);
+}
+.subt-s2{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.div-h{
+    width: 250px;
+    padding-right: 5px;
+}
+
+.section3{
+    background-color:  rgb(209, 206, 206);
+}
+
+.funciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.func-verde{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2.5px solid rgb(93, 219, 93);
+    padding: 5px 5px 5px 5px;
+    width: 90px;
+    height: 90px;
+}
+
+.func{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1.5px solid white;
+    padding: 5px 5px 5px 5px;
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    }
+
+.icono-func{
+    align: center;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.nav-fun{
+    text-decoration: none;
+    color:grey;
+    font-size: 12px;
+}
+
+.sub-s3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:rgb(90, 88, 88);
+    padding-bottom: 40px;
+    
+}
+
+.sub-s3-2{
+    text-align: left;
+    text-justify: distribute;
+    padding-left: 15px;
+
+}
+.subt-s2{
+    font-size: 16px;
+    color:rgb(90, 88, 88);
+    padding-bottom: 25px;
+}
+.subt-s2-1{
+font-size: 14px;
+padding-bottom: 5px;
+padding-top: 5px;
+    }
+
+.negocios{
+display: flex;
+justify-content: center;
+flex-direction: row;
+padding-bottom: 25px;
+width: -webkit-fill-available;
+
+}
+
+.neg-div1{
+background-image: url("exámen módulo 2 (Wally)/imagenes/tipo_negocio_restaurant.png");
+margin-right: 15px;
+width: 240px;
+height: 280px;
+}
+
+.neg-div2{
+background-image: url("exámen módulo 2 (Wally)/imagenes/tipo_negocio_retail.png");
+width: 240px;
+height: 280px;
+}
+
+.neg-div3{
+background-image: url("exámen módulo 2 (Wally)/imagenes/tipo_negocio_fastfood.png");
+margin-left: 15px;
+width: 240px;
+height: 280px;
+}
+.icono-rest{
+    align: center;
+    padding-top: 45%;
+    padding-bottom: 10px;
+    }
+
+.letra-neg{
+color:white;
+font-size: 12px;
+    }
+.impresora{
+    margin-left: 60px;
+    margin-right: 60px;
+    width: auto;
+}
+.icono-equipo{
+    width: 25px;
+    height: 25px;
+    align:center;
+}
+.clientes-logos{
+ padding-top: 25px;
+ padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.logos-cl{
+    width: 180px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.letra-grandefinal{
+    color: rgb(77, 75, 75);
+    text-decoration: none; 
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div-sectionfinal{
+    padding-right: 15px;
+    }
+
+.section-datos{
+    display: flex;
+    justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        padding-left: 250px;
+        padding-right: 250px;
+        text-align: left;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+}
